@@ -1,0 +1,1 @@
+A site response checker that sends notifications when a site content changes. Was built with C# 4.0, NHibernate and WPF for the windows client.
