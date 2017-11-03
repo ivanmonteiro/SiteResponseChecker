@@ -10,7 +10,7 @@ This architecture allows to add multiple clients implementations (Web, Windows G
 .Net Framework 4.0 (https://www.microsoft.com/pt-br/download/details.aspx?id=17851)
 
 ## Deployment
-You can add the GUI .exe to Windows's start-up folder (for windows 8/10 -> C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup) or choose to install the Windows Service project (experimental).
+You can add the GUI .exe to Windows's start-up folder (for windows 8/10 type WindowsKey+R and then type shell:startup) or choose to install the Windows Service project (experimental).
 
 ## Built With
 Built with C# 4.0, NHibernate, WPF for the GUI, SQLite for the embedded database (but that can be changed to any database that NHibernate supports)
