@@ -1,6 +1,6 @@
 # Site Response Checker
 
-A site response checker that sends notifications when a site content changes (whole page or just specific contents with css selector query like jQuey). Periodically sends requests
+A site response checker that sends notifications when a site content changes (whole page or just specific contents with css selector query like jQuey). Periodically sends requests to the sites and checks if the response has changed.
 
 # Architecture
 Multi-layered, separation between domain, business and client-side logic. Job execution is multithreaded to avoid blocking while processing site checks.
