@@ -1,0 +1,26 @@
+﻿<Window x:Class="SiteResponseChecker.Desktop.EditSite"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Site"  Height="396" Width="514" Loaded="Window_Loaded_1" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Height="333" HorizontalAlignment="Left" Margin="12,12,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="468">
+            <CheckBox Content="Enabled?" Height="16" Name="checkBoxEnabled" />
+            <Label Content="Site Name" Height="28" Name="label2" />
+            <TextBox Height="23" Name="textBoxSiteName" Width="300" HorizontalAlignment="Left" />
+            <Label Content="Site Url" Height="28" Name="label3" />
+            <TextBox Height="23" Name="textBoxSiteUrl" Width="300" HorizontalAlignment="Left" />
+            <Label Content="Check Interval" Height="28" Name="label4" />
+            <TextBox Height="23" Name="textBoxCheckInterval" Width="90" HorizontalAlignment="Left" />
+            <CheckBox Content="Check Specific Element" Height="16" Name="checkBoxCheckSpecificElement" Checked="checkBoxCheckSpecificElement_Checked" Unchecked="checkBoxCheckSpecificElement_Unchecked" />
+            <Label Name="labelSpecificElement"  Content="Specific Element" Height="28" Visibility="Collapsed" />
+            <TextBox Height="23" Name="textBoxSpecificElement" Width="120" HorizontalAlignment="Left" Visibility="Collapsed" />
+            <Label Name="labelSpecificElementType" Content="Type" Height="28"  Visibility="Collapsed" />
+            <ComboBox Name="comboBoxSpecificElementType" Width="120" HorizontalAlignment="Left" SelectedIndex="0" Visibility="Collapsed">
+            </ComboBox>            
+            <CheckBox Content="Send changes to other email?" Height="16" Name="checkBoxSendtoOtherEmail" Checked="checkBoxSendtoOtherEmail_Checked" Unchecked="checkBoxSendtoOtherEmail_Unchecked"/>
+            <Label Content="Email" Height="28" Name="labelNotificationEmail"  Visibility="Collapsed" />
+            <TextBox Height="23" Name="textBoNotificationEmail" Width="300" HorizontalAlignment="Left"  Visibility="Collapsed" />
+            <Button Content="Save" Height="23" x:Name="buttonEdit" Width="75" Click="buttonEdit_Click" HorizontalAlignment="Left" />
+        </StackPanel>
+    </Grid>
+</Window>
