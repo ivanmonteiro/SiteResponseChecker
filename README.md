@@ -21,8 +21,13 @@ Build and add the Desktop GUI's .exe to Windows's start-up folder (for windows 8
 ## Built With
 
 -WPF (Windows Presentation Foundation) for the GUI
+
 -NHibernate for ORM and FluentNhibernate for nice configuration (http://nhibernate.info/)
+
 -FluentMigrator for database migrations (https://github.com/fluentmigrator/fluentmigrator)
+
 -SharpArch for architecture and code reusability (http://sharparchitecture.github.io/)
+
 -HtmlAgilityPack to manipulate html (https://github.com/zzzprojects/html-agility-pack)
+
 -DiffPlex to get detailed diff information about what has been added and removed (https://github.com/mmanela/diffplex)
